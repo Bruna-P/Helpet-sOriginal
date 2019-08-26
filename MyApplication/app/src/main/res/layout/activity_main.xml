@@ -1,0 +1,114 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background">
+
+    <LinearLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="br.com.fake.steam.LoginActivity">
+
+        <ImageView
+                android:layout_width="349dp"
+                android:layout_height="257dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/logohelpets"
+                android:contentDescription="@string/todo"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#EEE"
+                android:textStyle="bold"
+                android:text="@string/account_name" />
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="#CCC"
+
+                android:hint="@string/account_name_hint" android:inputType="" android:autofillHints=""/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#EEE"
+                android:text="@string/password"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"/>
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="textPassword"
+                android:background="@drawable/edit_text"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="#CCC"
+                android:hint="@string/password_hint" android:autofillHints=""/>
+
+        <!-- Relembrar senha -->
+        <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/remember_my_password"
+                android:layout_gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="6pt"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp" />
+
+        <!-- Entrar -->
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_button"
+                android:text="SIGN IN"
+                android:textColor="@color/colorAccent"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:onClick="sendMessage" android:id="@+id/idSignin"/>
+
+        <!-- Registrar-se -->
+        <Button
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/register_button"
+                android:text="Register"
+                android:textColor="@color/colorAccent"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp" android:id="@+id/idRegister1"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/forgot_your_login_info"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center_horizontal"/>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background">
+
+    <LinearLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="br.com.fake.steam.LoginActivity">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#EEE"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:text="@string/contact_an_ONG"/>
+
+        <ImageView
+                android:layout_width="306dp"
+                android:layout_height="234dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/exampledog"
+                android:layout_marginTop="15dp"
+                android:contentDescription="@string/todo"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#EEE"
+                android:text="@string/contact_a_ONG"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"/>
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="#CCC"
+
+                android:hint="@string/contact_a_ONG_hint"
+                android:inputType=""
+                android:autofillHints=""/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#EEE"
+                android:text="@string/description"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"/>
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/edit_text"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="#CCC"
+                android:hint="@string/description_hint"
+                android:autofillHints=""/>
+    </LinearLayout>
+</ScrollView>

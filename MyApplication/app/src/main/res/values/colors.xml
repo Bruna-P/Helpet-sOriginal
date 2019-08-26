@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C9E7F2</color>
+    <color name="colorPrimaryDark">#F2B6BB</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="gradient">#F54006</color>
+    <color name="gradStart">#C9E7F2</color>
+    <color name="gradEnd">#F2B6BB</color>
+
+    <!-- 7EF2E7 -->
+</resources>
