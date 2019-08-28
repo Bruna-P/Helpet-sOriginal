@@ -1,0 +1,12 @@
+package pad.time3.helpet_s5
+
+import android.support.v7.app.AppCompatActivity
+import android.os.Bundle
+
+class Question : AppCompatActivity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_question)
+    }
+}

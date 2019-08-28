@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -20,13 +19,13 @@
                 android:textColor="#EEE"
                 android:textStyle="bold"
                 android:layout_marginTop="15dp"
-                android:text="@string/contact_an_ONG"/>
+                android:text="@string/user"/>
 
         <ImageView
                 android:layout_width="306dp"
                 android:layout_height="234dp"
                 android:layout_gravity="center"
-                android:src="@mipmap/ong"
+                android:src="@mipmap/exampledog"
                 android:layout_marginTop="15dp"
                 android:contentDescription="@string/todo"/>
 
@@ -35,7 +34,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#EEE"
-                android:text="@string/contact_a_ONG"
+                android:text="@string/"
                 android:textStyle="bold"
                 android:layout_marginTop="40dp"/>
 
@@ -59,7 +58,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#EEE"
-                android:text="@string/description"
+                android:text="@string/"
                 android:textStyle="bold"
                 android:layout_marginTop="40dp"/>
 

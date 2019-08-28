@@ -33,4 +33,7 @@
     <string name="description">DESCRIPTION</string>
     <string name="description_hint"></string>
 
+    <!-- USUARIO !-->
+    <string name="user">Rodovaldo</string>
+
 </resources>
