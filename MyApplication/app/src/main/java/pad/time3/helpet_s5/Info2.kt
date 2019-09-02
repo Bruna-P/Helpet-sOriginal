@@ -15,6 +15,12 @@ class Info2 : AppCompatActivity() {
         idContactong.setOnClickListener {
             val intent = Intent(this, userong::class.java)
             startActivity(intent)
+
+        }
+
+        idPostDog.setOnClickListener {
+            val intent = Intent(this, User::class.java)
+            startActivity(intent)
         }
 
         idExit.setOnClickListener {
@@ -22,5 +28,9 @@ class Info2 : AppCompatActivity() {
             startActivity(intent)
         }
 
+        idSearchPet.setOnClickListener {
+            val intent = Intent(this, feed::class.java)
+            startActivity(intent)
+        }
     }
 }

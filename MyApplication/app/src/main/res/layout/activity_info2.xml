@@ -21,7 +21,8 @@
                 android:textStyle="bold"
                 android:layout_marginTop="100dp"
                 android:layout_marginLeft="50dp"
-                android:layout_marginRight="50dp"/>
+                android:layout_marginRight="50dp"
+                android:id="@+id/idSearchPet"/>
         <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -31,7 +32,9 @@
                 android:textStyle="bold"
                 android:layout_marginTop="100dp"
                 android:layout_marginLeft="50dp"
-                android:layout_marginRight="50dp"/>
+                android:layout_marginRight="50dp"
+                android:id="@+id/idPostDog"/>
+
         <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -41,17 +44,19 @@
                 android:textStyle="bold"
                 android:layout_marginTop="100dp"
                 android:layout_marginLeft="50dp"
-                android:layout_marginRight="50dp" android:id="@+id/idContactong"/>
+                android:layout_marginRight="50dp"
+                android:id="@+id/idContactong"/>
         <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/exit_button"
+                android:background="@drawable/contact_button"
                 android:text="@string/exit"
                 android:textColor="@color/colorAccent"
                 android:textStyle="bold"
                 android:layout_marginTop="60dp"
                 android:layout_marginLeft="50dp"
-                android:layout_marginRight="50dp" android:id="@+id/idExit"/>
+                android:layout_marginRight="50dp"
+                android:id="@+id/idExit"/>
         <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
