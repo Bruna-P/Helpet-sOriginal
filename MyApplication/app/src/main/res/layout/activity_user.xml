@@ -34,7 +34,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#EEE"
-                android:text="@string/"
+                android:text="@string/description"
                 android:textStyle="bold"
                 android:layout_marginTop="40dp"/>
 
@@ -58,7 +58,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#EEE"
-                android:text="@string/"
+                android:text="@string/description"
                 android:textStyle="bold"
                 android:layout_marginTop="40dp"/>
 

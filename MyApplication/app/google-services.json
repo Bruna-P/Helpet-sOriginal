@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "30879140217",
+    "firebase_url": "https://helpets-f80cf.firebaseio.com",
+    "project_id": "helpets-f80cf",
+    "storage_bucket": "helpets-f80cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30879140217:android:2a28093f51f567b42307a8",
+        "android_client_info": {
+          "package_name": "pad.time3.helpet_s5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30879140217-rhv5bck03okv2eikjm4h5mjcp9hsog7t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pad.time3.helpet_s5",
+            "certificate_hash": "7e6759548e8119d58b11d893ab7ee2036f7e70a0"
+          }
+        },
+        {
+          "client_id": "30879140217-v7jqubefrfslh92laepjouh89i87mgth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAzIrvqC5SjNjJwBtdsVlgaGaOieES_x8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30879140217-v7jqubefrfslh92laepjouh89i87mgth.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

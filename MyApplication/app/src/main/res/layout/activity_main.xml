@@ -4,12 +4,9 @@
             android:background="@drawable/background">
 
     <LinearLayout
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            xmlns:tools="http://schemas.android.com/tools"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            tools:context="br.com.fake.steam.LoginActivity">
+            android:orientation="vertical">
 
         <ImageView
                 android:layout_width="349dp"
@@ -37,7 +34,8 @@
                 android:textColor="@color/colorAccent"
                 android:textColorHint="#CCC"
 
-                android:hint="@string/account_name_hint" android:inputType="" android:autofillHints=""/>
+                android:hint="@string/account_name_hint" android:inputType="" android:autofillHints=""
+                android:id="@+id/txtUserName"/>
 
         <TextView
                 android:layout_width="wrap_content"
@@ -59,7 +57,7 @@
                 android:textAlignment="center"
                 android:textColor="@color/colorAccent"
                 android:textColorHint="#CCC"
-                android:hint="@string/password_hint" android:autofillHints=""/>
+                android:hint="@string/password_hint" android:autofillHints="" android:id="@+id/txtSenha"/>
 
         <!-- Relembrar senha -->
         <CheckBox
