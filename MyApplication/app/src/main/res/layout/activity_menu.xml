@@ -42,7 +42,36 @@
                 android:textColor="@color/colorAccent"
                 android:textColorHint="#CCC"
 
-                android:hint="" android:id="@+id/txtlogin"/>
+                android:hint=""
+                android:id="@+id/txtlogin"/>
+
+        <!-- GMAIL -->
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#EEE"
+                android:text="@string/register_gmail"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="#CCC"
+                android:hint=""
+                android:id="@+id/txtGmail"/>
+
+        <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:id="@+id/progressBar"/>
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -52,8 +81,6 @@
                 android:textStyle="bold"
                 android:layout_marginTop="40dp"/>
 
-        <ProgressBar android:layout_width="match_parent" android:layout_height="wrap_content"
-        android:visibility="invisible" android:id="@+id/progressBar"/>
         <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -89,27 +116,7 @@
                 android:textColorHint="#CCC"
                 android:hint="@string/confirm_password_hint" android:id="@+id/txtCSenha"/>
 
-        <!-- GMAIL -->
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:textColor="#EEE"
-                android:text="@string/register_gmail"
-                android:textStyle="bold"
-                android:layout_marginTop="40dp"/>
-        <EditText
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:inputType="textPassword"
-                android:background="@drawable/edit_text"
-                android:layout_marginTop="15dp"
-                android:layout_marginLeft="50dp"
-                android:layout_marginRight="50dp"
-                android:textAlignment="center"
-                android:textColor="@color/colorAccent"
-                android:textColorHint="#CCC"
-                android:hint="@string/gmail_hint" android:id="@+id/txtGmail"/>
+
 
         <Button
                 android:layout_width="match_parent"

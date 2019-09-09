@@ -15,9 +15,9 @@ class Menu : AppCompatActivity() {
         setContentView(R.layout.activity_menu)
 
         idRegister.setOnClickListener {
-           // val intent = Intent(this, Info2::class.java)
-           // startActivity(intent)
-            salvarAluno()
+           salvarAluno()
+            val intent = Intent(this, Info2::class.java)
+            startActivity(intent)
         }
     }
 
@@ -33,12 +33,10 @@ class Menu : AppCompatActivity() {
             //criação de um identificador para o aluno que será usado como id do documento do banco
             val id = txtGmail.text.toString()
 
-
-
             //criação de um objeto do tipo Aluno
             val usuario = Usuario(
-                id,
-                txtlogin.text.toString()
+                id, txtlogin.text.toString()
+
             )
 
             //função para testar se há conexão com a internet
